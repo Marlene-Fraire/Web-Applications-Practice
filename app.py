@@ -33,4 +33,4 @@ start_button = st.button('Ejecutar')
 if start_button:
     st.write(f'Experimento con {number_of_trials} intentos en curso...')
     final_mean = toss_coin(number_of_trials)
-    st.sucess(f'Media final: {final_mean:.4f}')
+    st.success(f'Media final: {final_mean:.4f}')
